@@ -1,0 +1,176 @@
+body{
+    font-family: Tahoma;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+#list h1{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+h1, h2{
+    font-weight: normal;
+}
+
+#container{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+}
+
+#page-banner{
+    background: #eee ;
+    padding: 10px 0;
+
+}
+
+#page-banner h1, #page-banner p{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#page-banner input{
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #444;
+}
+
+#list, #book, #tabbed-content{
+    margin: 30px;
+}
+
+#list h2{
+    float: right;
+    margin-right: 15px;
+}
+
+#list ul, #tabbed-content ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#list li{
+    padding: 20px;
+    margin: 20px 10px;
+}
+
+#list li:hover{
+    border-color: #9361bf;
+}
+
+.delete{
+    float: left;
+    background: #a187b8;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.name{
+    float: right;
+}
+
+.delete:hover{
+    background: #333;
+}
+
+#add{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#add input{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+}
+
+#add .button{
+    border: 1px solid #9361bf;
+    background: #9361bf;
+    padding: 10px 20px;
+    font-size: 17px;
+    display: inline-block;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 59px;
+    margin: 20px 0;
+    border-left: 0;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+#add:after{
+    content: '';
+    display: block;
+   
+}
+
+#hide{
+    float: right;
+    padding: 30px;
+}
+
+#hide label{
+    padding: 0 10px;
+}
+
+#add #hide{
+    width: 30px;
+}
+.image{
+    width: 100%;
+    margin: auto;
+}
+.image img{
+    width: 30%;
+    display: flex;
+    margin: auto;
+}
+.rotation{
+    width: 100%;
+    margin: auto;
+}
+.rotation img{
+    width: 20%;
+    margin: auto;
+    display: flex;
+    
+}
+.rotation button{
+    margin-left: 340px;
+    width: 100px;
+}
+.Left{
+    -webkit-transform: (50deg);
+    transform: rotate(50deg);
+
+}
+.Right{
+    -webkit-transform: (-50deg);
+    transform: rotate(-50deg);
+
+}
